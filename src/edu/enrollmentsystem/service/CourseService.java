@@ -1,5 +1,8 @@
-package edu.module-collections.service;
+package edu.enrollmentsystem.service;
 
-public class CourseService {
-    
+import edu.enrollmentsystem.dto.CourseDTO;
+
+public interface CourseService {
+
+    void registerCourse(CourseDTO course);
 }

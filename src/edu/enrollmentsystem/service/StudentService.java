@@ -1,5 +1,8 @@
-package edu.module-collections.service;
+package edu.enrollmentsystem.service;
 
-public class StudentService {
-    
+import edu.enrollmentsystem.dto.StudentDTO;
+
+public interface StudentService {
+
+    void registerStudent(StudentDTO student);
 }
