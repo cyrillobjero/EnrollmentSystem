@@ -1,6 +1,6 @@
-package edu.cyrillmay.utility;
+package edu.enrollmentsystem.utility;
 
-import edu.cyrillmay.dto.EnrollmentDTO;
+import edu.enrollmentsystem.dto.EnrollmentDTO;
 import java.util.List;
 
 public class ReportGenerator {

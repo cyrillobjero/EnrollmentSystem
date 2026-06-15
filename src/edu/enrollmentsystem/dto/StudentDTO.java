@@ -1,4 +1,4 @@
-package edu.module-collection.dto;
+package edu.enrollmentsystem.dto;
 
 public class StudentDTO {
 
