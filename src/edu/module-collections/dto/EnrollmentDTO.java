@@ -1,5 +1,4 @@
-package edu.cyrillmay.dto;
-
+package edu.module-collection.dto;
 public class EnrollmentDTO {
 
     private String enrollmentId;
