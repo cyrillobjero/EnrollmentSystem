@@ -1,5 +1,11 @@
-package edu.module-collections.repository;
+package edu.enrollmentsystem.repository;
 
-public class StudentRepository {
-    
+import edu.enrollmentsystem.dto.StudentDTO;
+import java.util.List;
+
+public interface StudentRepository {
+
+    void addStudent(StudentDTO student);
+
+    List<StudentDTO> getAllStudents();
 }

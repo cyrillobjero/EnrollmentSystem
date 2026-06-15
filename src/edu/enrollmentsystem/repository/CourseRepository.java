@@ -1,5 +1,11 @@
-package edu.module-collections.repository;
+package edu.enrollmentsystem.repository;
 
-public class CourseRepository {
-    
+import edu.enrollmentsystem.dto.CourseDTO;
+import java.util.List;
+
+public interface CourseRepository {
+
+    void addCourse(CourseDTO course);
+
+    List<CourseDTO> getAllCourses();
 }
